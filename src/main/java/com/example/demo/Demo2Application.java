@@ -7,10 +7,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Demo2Application {
 
     public static void main(String[] args) {
+
+        Persona persona = new Persona();
+
+        persona.setApellido("Villar");
+
+
+
         SpringApplication.run(Demo2Application.class, args);
     }
 
 
-    Persona persona = new Persona();
+
 
 }
