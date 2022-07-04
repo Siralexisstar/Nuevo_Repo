@@ -12,6 +12,7 @@ public class Demo2Application {
 
         persona.setApellido("Villar");
 
+        persona.setDNI("47668228S");
 
 
         SpringApplication.run(Demo2Application.class, args);
